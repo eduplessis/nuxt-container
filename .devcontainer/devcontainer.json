@@ -1,0 +1,25 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+  "name": "Nuxt3",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "forwardPorts": [
+    3000
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "antfu.goto-alias",
+        "Nuxtr.nuxtr-vscode",
+        "Vue.volar",
+        "alexcvzz.vscode-sqlite"
+      ]
+    }
+  }
+}
