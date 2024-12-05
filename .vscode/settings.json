@@ -1,16 +1,13 @@
 {
-    // Disable the default formatter, use eslint instead
     "prettier.enable": false,
     "editor.formatOnSave": true,
     "eslint.format.enable": true,
     "eslint.codeActionsOnSave.mode": "all",
     "editor.formatOnSaveMode": "file",
-    // Auto fix
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit",
       "source.organizeImports": "never"
     },
-    // Silent the stylistic rules in you IDE, but still auto fix them
     "eslint.rules.customizations": [
       {
         "rule": "style/*",
@@ -63,7 +60,6 @@
         "fixable": true
       }
     ],
-    // Enable eslint for all supported languages
     "eslint.validate": [
       "javascript",
       "javascriptreact",
