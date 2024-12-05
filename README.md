@@ -1,7 +1,9 @@
-# Nuxt Minimal Dev Container Starter
+![A list of specifications of the devcontainer](/public/Nuxt-Minimal-DevContainer-Starter.png)
+
+# Nuxt Minimal DevContainer Starter
  
 ## What is different from Nuxt starter?
-This starter is based on the [Nuxt starter](https://github.com/nuxt/framework/tree/main/starter) and uses devcontainer for the development environment. So you don't need to install all the different node versions on your local machine.
+This starter is based on the Nuxt starter and uses devcontainer for the development environment. So you don't need to install all the different node versions on your local machine.
 
 You can use npm, pnpm or yarn to install dependencies. Sorry for the bun lovers.
 
