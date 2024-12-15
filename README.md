@@ -10,6 +10,12 @@ You can use npm, pnpm or yarn to install dependencies. Sorry for the bun lovers.
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Installation
+
+```bash
+npx giget@latest gh:eduplessis/nuxt-container
+```
+
 ## Setup
 
 Make sure to install dependencies:
